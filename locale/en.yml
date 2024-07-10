@@ -1,7 +1,22 @@
 dhtml-gender:
-  # For more details on the format
-  # Checkout https://docs.flarum.org/extend/i18n/#appendix-a-standard-key-format
   admin:
-    my_cool_key: My Cool Key
-
+    genderColumn: Gender
+    showGendersOnPosts: Show Gender on Posts
+    showGendersOnPosts_text: Show Gender (Text) on Posts
+    set_on_registration_label: Allow setting gender on registration
+    required_label: Required entering gender
+    required_help: You need enable Set on gender option to make this option work
+    bind_label: Bind Required entering gender
+    bind_help: Force gender to account that has not registered gender after login
   forum:
+    male: Male
+    female: Female
+    other: Prefer not to say
+
+    inputGender: Gender
+    saveButton: Save
+    clickToSelectGender: Select your gender
+    genderSaved: Gender successfully saved!
+    field_placeholder: Confirm Gender
+    binding_gender: We discovered that you have not set your gender. Please set your gender first. You can only post and leave messages after setting your gender.
+    binding_gender_click: Click Now
